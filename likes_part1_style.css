@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#container {
+    margin: 0px auto;
+    width: 950px;
+}
+.some-user {
+    border: black 5px solid;
+    width: 500px;
+    height: 150px;
+    margin-top: 50px;
+}
+.top-info {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+.top-info > h2 {
+    margin-right: 70px;
+    margin-left: 30px;
+    font-size: 35px;
+}
+#su_likes {
+    font-size: 20px;
+    padding-right: 60px;
+}
+.top-info button {
+    background-color: yellow;
+    border: black 2px solid;
+    box-shadow: black 5px 5px;
+    color: black;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+.some-user > p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+

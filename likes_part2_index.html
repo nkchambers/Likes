@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="likes_part2_style.css">
+    <title>Likes</title>
+</head>
+<body>
+    <div id="container">
+        <div class="banner">
+            <h1>Network</h1>
+        </div>
+
+        <div class="main-feed">
+
+            <div class="col-left">
+
+                <div class="user-avatar">
+                    <img src="Assets/user-circle.png" alt="avatar picture">
+                    <a href="#">Add an avatar</a>
+                    <h3>James Doe</h3>
+                </div>
+
+            </div>
+
+            <div class="col-right">
+
+                <h1>Your Feed</h1>
+
+                <div class="Neil_M">
+                    <div class="top-info">
+                        <h2>Neil M</h2>
+                        <p id="nm_likes">9 like(s)</p>
+                        <button onclick="addLikes_Neil()">Like</button>
+                    </div>
+                    <p>I just set up this new discord bot, let me<br>know what you think. <a href="#">link</a></p>
+                </div>
+
+                <div class="Nichole_K">
+                    <div class="top-info">
+                        <h2>Nichole K</h2>
+                        <p id="nk_likes">12 like(s)</p>
+                        <button onclick="addLikes_Nichole()">Like</button>
+                    </div>
+                    <p>Just finished my <a href="#">next comic, </a>check it out.</p>
+                </div>
+
+                <div class="Jim_R">
+                    <div class="top-info">
+                        <h2>Jim R</h2>
+                        <p id="jr_likes">9 like(s)</p>
+                        <button onclick="addLikes_Jim()">Like</button>
+                    </div>
+                    <p>I can't stop listening to the <a href="#">new album.</a><br>Who else is liking it?</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src="likes_part2_script.js"></script>
+</body>
+</html>
